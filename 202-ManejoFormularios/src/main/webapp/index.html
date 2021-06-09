@@ -4,10 +4,10 @@
         <title>Ejercicio Formulario</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="recursos/estilos.css"/>
-        <script src="recursos/funciones.js"></script>
+        <script type="text/javascript" src="recursos/funcionesDos.js"></script>
     </head>
     <body>
-        <form name="form1" action="/202-ManejoFormulariosHTML/Servlet" method="post"
+        <form name="form1" action="/202-ManejoFormularios/Servlet" method="post"
               onsubmit=" return validarForma(this)">
             <input type="hidden" name="oculto" value="valorOculto" />
             <table width="200" id="enfasis-columna">
@@ -24,18 +24,18 @@
                 <tr>
                     <td class="columna">Password:(*)</td>
                     <td>
-                        <input class="default" type="text" name="password" value="escribir password"
+                        <input class="default" type="password" name="password" 
                                onfocus="this.select()"/>
                     </td>
                 </tr>
                 <tr>
                     <td class="columna">Tecnologias de internet: (*)</td>
                     <td>
-                        Java <input type="checkbox" name="tenologia" value="java"/>
+                        Java <input type="checkbox" name="tecnologia" value="java"/>
                         &nbsp; &nbsp; &nbsp; &nbsp;
-                        .Net <input type="checkbox" name="tenologia" value=".Net"/>
+                        .Net <input type="checkbox" name="tecnologia" value=".Net"/>
                         &nbsp; &nbsp; &nbsp; &nbsp;
-                        Php <input type="checkbox" name="tenologia" value="php"/>
+                        Php <input type="checkbox" name="tecnologia" value="php"/>
                         &nbsp; &nbsp; &nbsp; &nbsp;
                     </td>
                 </tr>
