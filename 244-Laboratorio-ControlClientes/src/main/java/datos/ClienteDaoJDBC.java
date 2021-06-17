@@ -127,6 +127,7 @@ public class ClienteDaoJDBC {
             stmt.setString(3, cliente.getEmail());
             stmt.setString(4, cliente.getTelefono());
             stmt.setDouble(5, cliente.getSaldo());
+            stmt.setDouble(6, cliente.getIdCliente());
             registros = stmt.executeUpdate();
             System.out.println("registros  actualizados= " + registros);
             

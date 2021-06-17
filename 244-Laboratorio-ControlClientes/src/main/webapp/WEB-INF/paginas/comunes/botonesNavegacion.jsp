@@ -2,12 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <a href="#" class="btn btn-primary btn-block">
-                    <i class="fa fa-plus"></i>Agregar Cliente
+                <a href="#" class="btn btn-primary btn-block"
+                   data-toggle="modal" data-target="#agregarClienteModal">
+                    <i class="fa fa-plus"></i> Agregar Cliente
                 </a>
             </div>
+            
         </div>
-        
+
     </div>
-    
+
 </section>
